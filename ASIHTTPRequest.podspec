@@ -3,9 +3,18 @@ Pod::Spec.new do |s|
   s.version      = "1.8.2"
   s.summary      = "Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac OS X and iPhone."
 
-  s.description  = ASIHTTPRequest is an easy to use wrapper around the CFNetwork API that
+s.description  = <<-DESC
+                   ASIHTTPRequest is an easy to use wrapper around the CFNetwork API that
                    makes some of the more tedious aspects of communicating with web servers
-                   easier. For more info visit: http://allseeing-i.com/
+                   easier. It is written in Objective-C and works in both Mac OS X and iPhone
+                   applications.
+                   It is suitable performing basic HTTP requests and interacting with
+                   REST-based services (GET / POST / PUT / DELETE). The included
+                   ASIFormDataRequest subclass makes it easy to submit POST data and files
+                   using multipart/form-data.
+                   Please note that ASIHTTPRequest is not recommended for newer projects
+                   since it's not actively maintained anymore.
+                   For more info visit: http://allseeing-i.com/%5Brequest_release%5D
 
   s.homepage     = "http://allseeing-i.com/ASIHTTPRequest"
   s.license      = { :type => "BSD", :file => "LICENSE.md" }
