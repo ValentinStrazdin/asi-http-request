@@ -37,7 +37,7 @@ s.description  = <<-DESC
     ss.source_files = "Classes/ASIWebPageRequest/*.{h,m}"
     ss.libraries = "xml2.2"
     ss.dependencies = "ASIHTTPRequest/Core"
-    ss.xcconfig.HEADER_SEARCH_PATHS = "\"$(SDKROOT)/usr/include/libxml2\""
+    ss.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(SDKROOT)/usr/include/libxml2"' }
   end
 
   s.subspec "CloudFiles" do |ss|
