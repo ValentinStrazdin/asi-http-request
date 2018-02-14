@@ -15,6 +15,7 @@ s.description  = <<-DESC
                    Please note that ASIHTTPRequest is not recommended for newer projects
                    since it's not actively maintained anymore.
                    For more info visit: http://allseeing-i.com/%5Brequest_release%5D
+                   DESC
 
   s.homepage     = "http://allseeing-i.com/ASIHTTPRequest"
   s.license      = { :type => "BSD", :file => "LICENSE.md" }
